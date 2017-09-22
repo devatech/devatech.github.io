@@ -1,94 +1,74 @@
 @CHARSET "ISO-8859-1";
-@import "variables.scss";
-
 /* Reset CSS
  * --------------------------------------- */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
 form, fieldset, input, textarea, p, blockquote, th, td {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 table {
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 fieldset, img {
-  border: 0;
-}
+  border: 0; }
 
 address, caption, cite, code, dfn, em, strong, th, var {
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 strong {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 ol, ul {
   list-style: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 caption, th {
-  text-align: left;
-
-}
+  text-align: left; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-size: 100%;
   margin: 0;
   padding: 0;
-  color: #fff;
-}
+  color: #fff; }
 
 q:before, q:after {
-  content: '';
-}
+  content: ''; }
 
 abbr, acronym {
-  border: 0;
-}
+  border: 0; }
 
 /* Custom CSS
  * --------------------------------------- */
 body {
   font-family: arial, helvetica;
   color: #333;
-  color: rgba(0, 0, 0, 0.5);
-}
+  color: rgba(0, 0, 0, 0.5); }
 
 .wrap {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  position: relative;
-}
+  position: relative; }
 
 h1 {
-  font-size: 6em;
-}
+  font-size: 6em; }
 
 p {
-  font-size: 2em;
-}
+  font-size: 2em; }
 
 .intro p {
   width: 50%;
   margin: 0 auto;
-  font-size: 1.5em;
-}
+  font-size: 1.5em; }
 
 .section {
-  text-align: center;
-}
+  text-align: center; }
 
 #menu li {
   display: inline-block;
@@ -97,37 +77,30 @@ p {
   background: #fff;
   background: rgba(255, 255, 255, 0.5);
   -webkit-border-radius: 10px;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 #menu li.active {
   background: #666;
   background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-}
+  color: #fff; }
 
 #menu li a {
   text-decoration: none;
-  color: #000;
-}
+  color: #000; }
 
 #menu li.active a:hover {
-  color: #000;
-}
+  color: #000; }
 
 #menu li:hover {
-  background: rgba(255, 255, 255, 0.8);
-}
+  background: rgba(255, 255, 255, 0.8); }
 
 #menu li a,
 #menu li.active a {
   padding: 9px 18px;
-  display: block;
-}
+  display: block; }
 
 #menu li.active a {
-  color: #fff;
-}
+  color: #fff; }
 
 #menu {
   position: fixed;
@@ -137,52 +110,41 @@ p {
   z-index: 70;
   width: 100%;
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 .twitter-share-button {
   position: fixed;
   z-index: 99;
   right: 149px;
-  top: 9px;
-}
+  top: 9px; }
 
-.team {
-  .row1,
-  .row2 {
+.team .row1,
+.team .row2 {
+  display: flex;
+  justify-content: center; }
+  .team .row1 .team-member,
+  .team .row2 .team-member {
     display: flex;
-    justify-content: center;
-
-    .team-member {
-      display: flex;
-      flex-direction: column;
+    flex-direction: column;
+    padding: 1rem; }
+    .team .row1 .team-member span,
+    .team .row2 .team-member span {
       padding: 1rem;
+      color: #fff; }
 
-      span {
-        padding: 1rem;
-        color: $white;
-      }
-    }
-  }
-}
-
-#section1 {
-  ul li {
-    padding-top: 1rem;
-  }
-
-  h3 {
-    padding-top: 1.5rem;
-  }
-}
+#section1 ul li {
+  padding-top: 1rem; }
+#section1 h3 {
+  padding-top: 1.5rem; }
 
 #underConstruction {
   position: fixed;
   bottom: 0px;
   z-index: 999;
-  background-color: rgba(red, 0.75);
+  background-color: rgba(255, 0, 0, 0.75);
   color: white;
   text-align: center;
   width: 100%;
-  padding: 1rem;
-}
+  padding: 1rem; }
+
+/*# sourceMappingURL=main.css.map */
