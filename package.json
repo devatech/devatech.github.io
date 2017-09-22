@@ -1,0 +1,25 @@
+{
+  "name": "deva-website",
+  "version": "1.0.0",
+  "description": "deva website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devatech/website.git"
+  },
+  "keywords": [
+    "deva"
+  ],
+  "author": "satuk kolan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devatech/website/issues"
+  },
+  "homepage": "https://github.com/devatech/website#readme",
+  "dependencies": {
+    "fullpage.js": "^2.9.4"
+  }
+}
