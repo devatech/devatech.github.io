@@ -131,6 +131,10 @@ p {
     .team .row2 .team-member span {
       padding: 1rem;
       color: #fff; }
+    .team .row1 .team-member img,
+    .team .row2 .team-member img {
+      width: 150px;
+      height: 150px; }
 
 #section1 ul li {
   padding-top: 1rem; }
