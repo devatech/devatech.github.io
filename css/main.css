@@ -160,8 +160,8 @@ a.button {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .competition img {
-    width: 80%; }
+  .competition .comp-flyer {
+    height: 80vh; }
   .competition > div {
     flex-grow: 1;
     width: 100%; }
