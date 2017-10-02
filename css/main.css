@@ -141,6 +141,11 @@ p {
 #section1 h3 {
   padding-top: 1.5rem; }
 
+.social img {
+  height: 75px;
+  width: 75px;
+  padding: 2rem 1rem; }
+
 #underConstruction {
   position: fixed;
   bottom: 0px;
