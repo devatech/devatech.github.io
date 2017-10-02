@@ -172,12 +172,29 @@ p {
 }
 
 #section1 {
+  h1 {
+    color: $orange;
+  }
+
   ul li {
     padding-top: 1rem;
   }
 
   h3 {
     padding-top: 1.5rem;
+  }
+
+  a.button {
+    background-color: $violet;
+    padding: 1rem;
+    color: $white;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+
+    &:hover {
+      background-color: $orange;
+    }
   }
 }
 

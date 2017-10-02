@@ -136,10 +136,21 @@ p {
       width: 150px;
       height: 150px; }
 
+#section1 h1 {
+  color: #DC6131; }
 #section1 ul li {
   padding-top: 1rem; }
 #section1 h3 {
   padding-top: 1.5rem; }
+#section1 a.button {
+  background-color: #465CA9;
+  padding: 1rem;
+  color: #fff;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem; }
+  #section1 a.button:hover {
+    background-color: #DC6131; }
 
 .social img {
   height: 75px;
