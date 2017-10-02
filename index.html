@@ -32,7 +32,7 @@
   <script>
     $(document).ready(function () {
       $('#fullpage').fullpage({
-        anchors: ['team', 'deva', 'benefizturnier', 'social', 'contact'],
+        anchors: ['team', 'deva', 'competition', 'social', 'contact'],
         sectionsColor: ['#2F2A2B', '#ffffff', '#75A754', '#F6B02C', '#DC6131', '#465CA9'],
         menu: "#menu",
       });
@@ -44,14 +44,14 @@
   <ul id="menu">
     <li data-menuanchor="team" class="active"><a href="#team">Ekip</a></li>
     <li data-menuanchor="deva"><a href="#deva">Deva</a></li>
-    <li data-menuanchor="benefizturnier"><a href="#benefizturnier">Benefiz-Turnier</a></li>
+    <li data-menuanchor="competition"><a href="#competition">Turnuva</a></li>
     <li data-menuanchor="social"><a href="#social">Sosyal Medya</a></li>
     <li data-menuanchor="contact"><a href="#contact">İletişim</a></li>
   </ul>
 
-  <div id="underConstruction">
-    site yapim asamasindadir
-  </div>
+  <!--<div id="underConstruction">-->
+  <!--site yapim asamasindadir-->
+  <!--</div>-->
 
   <div id="fullpage">
     <div class="section " id="section0">
@@ -104,7 +104,7 @@
       <div class="slide active" id="slide1">
         <div class="intro">
           <img src="img/deva.png" alt="">
-          <h1>Deva Dernegi (slogan)</h1>
+          <h1>Deva Dernegi</h1>
         </div>
       </div>
       <div class="slide" id="slide2">
@@ -168,8 +168,34 @@
     </div>
 
     <div class="section" id="section2">
-      <div class="intro">
-        <img width="40%" src="img/deva-7-benefizfussballturnier-in-wallisellen.jpg" alt="">
+      <div class="slide active" id="slide1">
+        <div class="intro">
+          <div class="competition">
+            <div>
+              <img src="img/deva-7-benefizfussballturnier-in-wallisellen.jpg" alt="">
+            </div>
+            <div>
+              <img class="pdf" src="img/pdf.png" alt="">
+              <br>
+              <br>
+              <br>
+              <a class="button" href="Anmeldeformular_Benefizfussballturnier-DEVA-2017.pdf">Başvuru Formu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide" id="slide2">
+        <div class="intro">
+          <h1>Turnuva Adresi</h1>
+          <br>
+          <br>
+          <a class="button"
+             target="_blank"
+             href="https://www.google.ch/maps/dir/''/Mehrzweckhalle+Wallisellen,+Hallen-+u.+Freibad+Water+World+Wallisellen,,+Alte+Winterthurerstrasse+62,+8304+Wallisellen/@47.4172629,8.5239055,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x479aa048ded34783:0x36d35c87f41a891!2m2!1d8.5939452!2d47.4172842">
+            Mehrzweckhalle Wallisellen, Alte Winterthurerstrasse 58, 8304 Wallisellen
+          </a>
+        </div>
       </div>
     </div>
 

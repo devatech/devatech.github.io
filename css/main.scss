@@ -183,18 +183,37 @@ p {
   h3 {
     padding-top: 1.5rem;
   }
+}
 
-  a.button {
-    background-color: $violet;
-    padding: 1rem;
-    color: $white;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    border-radius: 1rem;
+a.button {
+  background-color: $violet;
+  padding: 1rem;
+  color: $white;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
 
-    &:hover {
-      background-color: $orange;
-    }
+  &:hover {
+    background-color: $orange;
+  }
+}
+
+.pdf {
+  width: 100px !important;
+}
+
+.competition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 80%;
+  }
+
+  & > div {
+    flex-grow: 1;
+    width: 100%;
   }
 }
 

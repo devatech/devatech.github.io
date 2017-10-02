@@ -142,15 +142,29 @@ p {
   padding-top: 1rem; }
 #section1 h3 {
   padding-top: 1.5rem; }
-#section1 a.button {
+
+a.button {
   background-color: #465CA9;
   padding: 1rem;
   color: #fff;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   border-radius: 1rem; }
-  #section1 a.button:hover {
+  a.button:hover {
     background-color: #DC6131; }
+
+.pdf {
+  width: 100px !important; }
+
+.competition {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .competition img {
+    width: 80%; }
+  .competition > div {
+    flex-grow: 1;
+    width: 100%; }
 
 .social img {
   height: 75px;
