@@ -156,4 +156,9 @@ p {
   width: 100%;
   padding: 1rem; }
 
+.fp-controlArrow.fp-prev {
+  border-color: transparent #2F2A2B transparent transparent; }
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #2F2A2B; }
+
 /*# sourceMappingURL=main.css.map */

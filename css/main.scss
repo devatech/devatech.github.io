@@ -199,3 +199,13 @@ p {
   width: 100%;
   padding: 1rem;
 }
+
+.fp-controlArrow {
+  &.fp-prev {
+    border-color: transparent $black transparent transparent;
+  }
+
+  &.fp-next {
+    border-color: transparent transparent transparent $black;
+  }
+}
