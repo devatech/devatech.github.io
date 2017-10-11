@@ -190,4 +190,10 @@ a.button {
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent #2F2A2B; }
 
+.language {
+  background-color: #465CA9 !important; }
+  .language a {
+    color: white !important;
+    padding: 9px !important; }
+
 /*# sourceMappingURL=main.css.map */

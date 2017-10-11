@@ -77,7 +77,7 @@ h1 {
 }
 
 h2 {
-   font-size: 4em;
+  font-size: 4em;
 }
 
 p {
@@ -248,5 +248,14 @@ a.button {
 
   &.fp-next {
     border-color: transparent transparent transparent $black;
+  }
+}
+
+.language {
+  background-color: $violet !important;
+
+  a {
+    color: white !important;
+    padding: 9px !important;
   }
 }
