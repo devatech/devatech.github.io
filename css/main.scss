@@ -268,8 +268,11 @@ a.button {
   }
 }
 
-#section0 {
-  background-image: url('../img/DevaRenkliTp.png');
-  background-repeat: no-repeat;
-  background-position: center;
+span img.logo {
+  height: 100px;
+  width: 100px;
+  object-fit: scale-down;
+  border-radius: 26px;
+  background-color: white;
+  padding: 10px;
 }
