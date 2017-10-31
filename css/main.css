@@ -165,10 +165,10 @@ a.button {
   justify-content: center;
   align-items: center; }
   .competition .comp-flyer {
-    height: 80vh; }
+    width: 80%; }
   .competition > div {
-    flex-grow: 1;
-    width: 100%; }
+    width: 100%;
+    flex: 1; }
 
 .social img {
   height: 75px;

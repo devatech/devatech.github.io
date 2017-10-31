@@ -213,12 +213,12 @@ a.button {
   align-items: center;
 
   .comp-flyer {
-    height: 80vh;
+    width: 80%;
   }
 
   & > div {
-    flex-grow: 1;
     width: 100%;
+    flex: 1;
   }
 }
 
