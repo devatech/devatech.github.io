@@ -190,6 +190,17 @@ p {
   }
 }
 
+@keyframes example {
+  from {
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 10px white;
+  }
+  to {
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 300px grey;
+  }
+}
+
 a.button {
   background-color: $violet;
   padding: 1rem;
@@ -197,6 +208,9 @@ a.button {
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   border-radius: 1rem;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 
   &:hover {
     background-color: $orange;
